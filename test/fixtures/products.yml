@@ -1,4 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+#don't change the names bc these are used in the integration tests that are already included in rails
+#also indentation matters bc yaml seperates info by indenting (like haml)
 
 one:
   title: MyString
@@ -11,3 +13,10 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+  
+ruby:
+  title: Programming Ruby 1.9
+  description: Ruby is the fastest growing and most exciting language out there!
+  image_url: ruby.png
+  price: 49.50
+   

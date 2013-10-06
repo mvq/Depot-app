@@ -18,6 +18,7 @@ test:
   pool: 5
   timeout: 5000
 
+  #used when online
 production:
   adapter: sqlite3
   database: db/production.sqlite3

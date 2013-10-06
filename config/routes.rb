@@ -1,5 +1,13 @@
 Depot::Application.routes.draw do
+  get "store/index"
+
   resources :products
+  
+  # Use "root" to route to the root of the site
+  #delete public/index.html by running erase public\index.html; (windows)
+  #the below makes homepage the store index page
+  #as store makes a path to store
+  root :to => 'store#index', :as => 'store'
 
 
   # The priority is based upon order of creation:
